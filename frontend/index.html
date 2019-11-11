@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mine For You</title>
+        <!-- Das neueste kompilierte und minimierte CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+    <body>
+        <nav id="menu-wrapper">
+            <ul class="nav nav-pills">
+                <li role="presentation">
+                    <a class="navbar-brand" href="#">
+                        <img id="logo-img" alt="Titel" src="src/html5.png">
+                    </a>
+                </li>
+                <li role="presentation"><a href="#">Nachrichten</a></li>
+                <li role="presentation" class="active"><a href="#">Start</a></li>
+            </ul>
+        </nav>
+        <div id="main-page">
+            <section id="filter">
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="true">
+                        Größe
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">Aktion</a></li>
+                        <li><a href="#">Andere Aktion</a></li>
+                        <li><a href="#">Irgendwas anderes</a></li>
+                        <li><a href="#">Abgetrennter Link</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="true">
+                            Größe
+                            <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Aktion</a></li>
+                            <li><a href="#">Andere Aktion</a></li>
+                            <li><a href="#">Irgendwas anderes</a></li>
+                            <li><a href="#">Abgetrennter Link</a></li>
+                        </ul>
+                    </div>
+            </section>
+            <section id="products">
+                <div class="card" style="width: 18rem;">
+                    <img src="src/bild1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/bild1.jpg" class="card-img-top" alt="card-img">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="src/bild1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h4 class="card-title">Card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                            content.
+                        </p>
+                        <div class="card-footer text-muted">
+                            <span> 2 days ago </span>
+                            <img src="src/html5.png" class="card-footer-img" alt="card-heart">
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </div>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</html>
