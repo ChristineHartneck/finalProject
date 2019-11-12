@@ -3,6 +3,23 @@
 }
 nav {
     background-color: khaki;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.logo {
+    justify-self: flex-start;
+}
+.nav-link {
+    color: black;
+}
+.active {
+    color: teal;
+    border-bottom: 1px solid teal;
 }
 #main-page {
     background-color: white;
@@ -41,4 +58,9 @@ nav {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.btn-default {
+    background-color: none;
+    border: none;
 }
